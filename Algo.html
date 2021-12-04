@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  h1 {
+            font-size: 3em;
+            color:rgb(21, 1, 107)
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            color:rgb(21, 1, 107);
+         }
+         p {
+             font-size: 1.5em;
+         }
+         button{
+            background-color:blue;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1em;
+            cursor: pointer;
+         }
+        .row {
+            transform: translate(0%, 10%);
+        }
+        
+           .column {
+        float: left;
+        }
+          .left-half{
+        text-align: center;
+        width:50%;
+
+        }
+        .right-half{
+            text-align: left;
+        width: 50%;
+        transform: translate(0%, -7%);
+        }
+body {
+
+  background-image: url(6.jpg) ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(2, 27, 110);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+  
+  <h1><img src="logo.png" alt=""></h1>
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="https://www.uhd.edu/academics/sciences/Pages/sciences-advising.aspx" target="_blank" >Advising</a>
+  <a href ="https://www.uhd.edu/Pages/home.aspx" target="_blank">UHD</a>
+  <a href="about.html">Team</a>
+  
+  
+    
+  <div class="dropdown">
+    <button class="dropbtn">Services & Products 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="mosh.html">CodeWithMosh</a>
+      <a href="codecademy.html">CodeCademy</a>
+      <a href="math.html">Math Tutoring</a>
+      <a href="arduino.html"> Arduino board</a>
+      <a href="chess.html">Game of Chess</a>
+      <a href="designCs.html">Project Design</a>
+      <a href="Algo.html">Algo Expert</a>
+      <a href="Udemy.html">Udemy</a>
+      <a href="foody.html">Foody</a>
+      <a href="enjoyment.html">Travel</a>
+    </div>
+  </div> 
+</div>
+
+<h2>Algo Expert</h2>
+<div class="row">
+  <div class = "column left-half">
+     <a href="https://www.algoexpert.io/product"> 
+     <img src = "AlgoExpert.png" width = "533" height = "300" alt = "Algo Expert">  
+     </a>
+  </div>
+  <div class = "column right-half">
+     <p>The ultimate resource to prepare for coding interviews</p>
+     <p>Ace the Technical Interview</p>
+     <p>Coding Interview Questions</p>
+     <p>Data structure Crash Course</p>
+     <p>Coding interview Assessments</p>
+     <p>Mock coding Interview</p>
+     <p>Coding Interview Tips</p>
+     <p><button onclick="window.location.href = 'https://www.algoexpert.io/product';">
+         Purchase
+     </button>
+      </p>
+  </div>
+</div>
+
+</body>
+</html>
